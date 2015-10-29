@@ -7,14 +7,23 @@
         <meta name="viewport" content="width=device-width, intial-scale=1" >
     </head>
     <body>
+        <audio autoplay>
+  <source src="I_Am_Machine.mp3" type="audio/mpeg">
+</audio>
 
         <!-- header met logo & navigatie -->
         <header>
+           <picture>
+            <source media="(min-width: 80em)" srcset="large.jpg">
+            <source media="(min-width: 50em)" srcset="med.jpg">
+            <img src="small.jpg" alt="picture">
+            </picture>
+
             <h1>CMD Amsterdam - Intranet</h1>
             <p>Communication and Multimedia Design is een ontwerpopleiding voor interactieve media in Amsterdam.</p>
-            <img id="logo" src="cmd_logo.png" alt="">
 
             <nav>
+               <img src="06_menu_stack-128.png" alt="hamburger menu">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Opleiding</a></li>
@@ -34,11 +43,10 @@
 
         <!-- Main article -->
         <main>
-
+            <h2>Opleiding</h2>
             <article>
 
                 <header>
-                    <h1>Opleiding</h1>
                     <h2>CMD Amsterdam</h2>
                     <p>De opleiding <span lang="en">Communication &amp; Multimedia Design</span> (CMD) Amsterdam leert studenten alles over het ontwerpen van online interactieve media. Dit betekent het begrijpen, bedenken en maken van interactieve media zoals websites, mobiele applicaties en interactieve televisie. Bij het ontwerpen van interactieve media staat de mens centraal. Niet alleen als eindgebruiker van een toepassing maar ook in de context van zijn leefomgeving. Studenten doen toegepast onderzoek en leren hun ontwerpen te testen op usability, gebruikersbehoefte en meetbare eindresultaten. Ze leren werken in multidisciplinaire projectteams aan opdrachten voor echte projectpartners.</p>
                     <p>De <a href="#opbouw" title="opbouw studieprogramma">vakken</a> gaan over interactie &amp; strategie, -design, -techniek en -cultuur. In de vakken leren studenten te denken en te handelen als een ontwerper. Hiervoor leren ze naast ‘ontwerpen’ ook ‘maken’, ‘onderzoeken’, ‘projectmanagen’ en ‘adviseren’. Studenten kunnen met behulp van keuzevakken, stages en minoren zelf richting geven aan hun opleiding. Na hun afstuderen komen studenten te werken in de creatieve industrie, gericht op de sector ‘nieuwe media’. Het werkveld waarin de interactieve media ontwerper zich begeeft is sterk in ontwikkeling. De opleiding houdt hier met een flexibel curriculum rekening mee en door met (keuze)vakken en projecten in te springen op nieuwe ontwikkelingen.</p>
@@ -319,6 +327,6 @@
 <a href="#">Geef ons feedback</a></p>
 </section>
         </footer>
-
+        <script language="javascript" type="text/javascript" src="artikel.js"></script>
     </body>
 </html>
